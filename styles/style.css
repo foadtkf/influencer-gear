@@ -33,6 +33,20 @@ h3 {
     font-size: 24px;
     line-height: 36px;
     color: #3A3A3A;
+    text-align: center;
+}
+
+h4 {
+    width: 151px;
+    left: calc(50% - 151px/2 - 434.5px);
+    top: 40.05%;
+    bottom: 58.74%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 0px;
+    margin-left: 15px;
 }
 
 .button {
@@ -89,6 +103,9 @@ Section 1
     height: 475px;
 }
 
+
+/* Mid bar */
+
 .mid_bar {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -98,4 +115,89 @@ Section 1
     border: 1px solid gray;
     border-left: none;
     border-right: none;
+}
+
+
+/* Products */
+
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prods {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin: 0px 132px 0px 160px;
+    padding-left: 20px;
+}
+
+.prod1 {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.pr-info2 {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.thumbnail img {
+    width: 280px;
+}
+
+#seemore {
+    margin-left: 1036px;
+    margin-right: 133px;
+    margin-top: -21px;
+}
+
+
+/* Last section */
+
+.lastsec {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 100px;
+}
+
+
+/* Bonus sec */
+
+h3 .lastsec {
+    padding-left: 100px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #080624;
+    /* height: 150px;
+    width: auto; */
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+#footer_h {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+#footer_b {
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
