@@ -14,8 +14,12 @@ a {
     color: #383636;
 }
 
+hr {
+    margin: 5% 5%;
+}
+
 h1 {
-    width: 582px;
+    width: 90%;
     height: 133px;
     font-family: Poppins;
     font-style: normal;
