@@ -96,13 +96,13 @@ Section 1
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: space-around;
-    margin-right: 165px;
-    margin-left: 165px;
+    /* margin-right: 100px; */
+    margin-left: 100px;
 }
 
 .sec1_r img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     transition: transform 1s;
 }
 
@@ -138,6 +138,14 @@ Section 1
 .pr-info2 {
     margin-left: 10px;
     margin-right: 40px;
+}
+
+.filled {
+    color: orange;
+}
+
+.white-star {
+    color: orange;
 }
 
 .thumbnail img {
