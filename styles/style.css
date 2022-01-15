@@ -101,13 +101,13 @@ Section 1
 }
 
 .sec1_r img {
-    width: 475px;
-    height: 475px;
+    width: 350px;
+    height: 350px;
     transition: transform 1s;
 }
 
 .sec1_r img:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 
